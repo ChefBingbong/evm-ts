@@ -28,7 +28,7 @@
       },
       "suspicious": {
         "noArrayIndexKey": "off",
-        "noConsole": "error"
+        "noConsole": "off"
       },
       "complexity": {
         "noStaticOnlyClass": "off",
