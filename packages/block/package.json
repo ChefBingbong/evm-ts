@@ -1,0 +1,19 @@
+{
+  "name": "@evm-ts/block",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --pretty --noEmit",
+    "clean": "rm -rf .turbo && rm -rf node_modules",
+    "test": "vitest run",
+    "test:watch": "vitest run"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5",
+     "@evm-ts/typescript-config": "workspace:*"
+  }
+}

@@ -1,0 +1,3 @@
+{
+  "extends": "@evm-ts/typescript-config/base.json"
+}
